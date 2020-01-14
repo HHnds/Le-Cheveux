@@ -260,7 +260,7 @@ h4 {
   width: 100%;
   height: 105%; }
   #header .header-img {
-    background: url("imgmain-background4.jpg") no-repeat center center/cover;
+    background: url("img/main-background4.jpg") no-repeat center center/cover;
     background-attachment: fixed;
     clip-path: polygon(0 0, 30% 0%, 500% 30vh, 0% 80%);
     width: 100%;
