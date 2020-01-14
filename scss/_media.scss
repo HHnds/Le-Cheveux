@@ -363,6 +363,9 @@
         left: 220;
         text-align: center;
         width: 100;
+        .second-title {
+          width: 100%;
+        }
       }
     }
   }
@@ -686,6 +689,7 @@
         }
         .second-title {
           font-size: 0.7rem;
+          width: 100%;
         }
         .underline {
           display: none;
@@ -1232,7 +1236,7 @@
         }
         .second-title {
           font-size: 0.7rem;
-          width: 14rem;
+          width: 100%;
         }
         .underline {
           display: none;
@@ -1257,7 +1261,7 @@
             height: 350px;
           }
           .content {
-            width: 100vw;
+            width: 80vw;
             padding: 1rem;
             h3 {
               font-size: 1.3rem;
@@ -1950,7 +1954,7 @@
         }
         .second-title {
           font-size: 0.7rem;
-          width: 14rem;
+          width: 100%;
         }
         .underline {
           display: none;
