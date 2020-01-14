@@ -9,7 +9,13 @@
 // font-family: 'Yellowtail', cursive;
 // -----------------  Navbar  ---------------
 #navbar {
-  display: none;
+  background-color: rgba(17, 17, 17, 0.605);
+  padding-top: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: inherit;
+  z-index: 99;
   .container {
     line-height: 70px;
     display: flex;
@@ -58,7 +64,8 @@
   height: 105%;
   // Header - space
   .header-img {
-    background: url("img/main-background3.jpg") no-repeat center center/cover;
+    background: url("C:\Users\Henrique Hernandes\Documents\le cheveux\dist\img\main-background4.jpg")
+      no-repeat center center/cover;
     // set attachment to scroll
     background-attachment: fixed;
     // Bottom image cut - Clip path maker
