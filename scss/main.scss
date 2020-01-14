@@ -64,8 +64,7 @@
   height: 105%;
   // Header - space
   .header-img {
-    background: url("/dist/img/main-background3.jpg") no-repeat center
-      center/cover;
+    background: url("/img/main-background3.jpg") no-repeat center center/cover;
     // set attachment to scroll
     background-attachment: fixed;
     // Bottom image cut - Clip path maker
@@ -438,7 +437,7 @@
   }
   &-b {
     position: relative;
-    background: url("/dist/img/orange.jpg") repeat center center/cover;
+    background: url("/img/orange.jpg") repeat center center/cover;
     width: 100vw;
     height: 70vh;
     .container {
@@ -716,8 +715,7 @@
       z-index: 1;
     }
     .header-container {
-      background: url("/dist/img/pink\ laptop1.jpg") no-repeat center
-        center/cover;
+      background: url("/img/pink\ laptop1.jpg") no-repeat center center/cover;
       height: 40vh;
       width: 100%;
       position: absolute;
