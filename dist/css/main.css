@@ -2067,7 +2067,7 @@ footer {
     #contact-form .background {
       height: 40rem; }
     #contact-form .container {
-      margin-top: 3rem;
+      margin: 3rem 0 4rem 0;
       width: 100vw;
       height: 30rem;
       top: 1350px; }
