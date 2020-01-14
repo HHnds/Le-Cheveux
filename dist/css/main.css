@@ -260,7 +260,7 @@ h4 {
   width: 100%;
   height: 105%; }
   #header .header-img {
-    background: url("/dist/img/main-background3.jpg");
+    background: url("img/main-background3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ h4 {
 
 #about-b {
   position: relative;
-  background: url("/dist/img/orange.jpg") repeat center center/cover;
+  background: url("/img/orange.jpg") repeat center center/cover;
   width: 100vw;
   height: 70vh; }
   #about-b .container .border1 {
@@ -657,7 +657,7 @@ h4 {
       background-image: linear-gradient(to top, #8b7529, #9c8224, #aa8e27, #c6a62c, #c9aa2c, #ceaf2c, #d4b42d, #d9b92d, #e1c02e, #e9c82f, #f1cf30, #f9d731);
       z-index: 1; }
     #prices-a .header-container {
-      background: url("/dist/img/pink laptop1.jpg") no-repeat center center/cover;
+      background: url("img/pink laptop1.jpg") no-repeat center center/cover;
       height: 40vh;
       width: 100%;
       position: absolute;
@@ -808,7 +808,7 @@ h4 {
   margin-top: 8rem; }
 
 #contact-form {
-  background: url("/dist/img/4pinneapple.jpg") no-repeat center centre/cover;
+  background: url("img/4pinneapple.jpg") no-repeat center centre/cover;
   height: auto;
   width: 100%;
   z-index: 2;
