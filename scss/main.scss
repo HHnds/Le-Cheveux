@@ -9,13 +9,7 @@
 // font-family: 'Yellowtail', cursive;
 // -----------------  Navbar  ---------------
 #navbar {
-  background-color: rgba(17, 17, 17, 0.605);
-  padding-top: 1rem;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-size: inherit;
-  z-index: 99;
+  display: none;
   .container {
     line-height: 70px;
     display: flex;
