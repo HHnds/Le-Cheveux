@@ -1,0 +1,42 @@
+// -------------------------------- General Styles ----------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  background: #fff;
+  font-size: 1rem;
+  background: inherit;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  font-family: "Hepta Slab", serif;
+}
+
+p {
+  font-size: 1.1rem;
+  font-family: "Solway", serif;
+  cursor: context-menu;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-family: "Itim", cursive;
+  color: black;
+  cursor: context-menu;
+}

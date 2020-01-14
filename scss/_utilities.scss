@@ -1,0 +1,106 @@
+// ----------------------- Utilities ----------------------------------
+// Variables
+
+.container {
+  max-width: 1200px;
+  overflow: hidden;
+  padding: 0 1.5rem;
+  margin: auto;
+}
+
+// Padding
+
+.py {
+  &-1 {
+    padding: 1rem 0;
+  }
+
+  &-2 {
+    padding: 2rem 0;
+  }
+
+  &-3 {
+    padding: 3rem 0;
+  }
+
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+// Margin
+
+.my {
+  &-1 {
+    padding: 1rem 0;
+  }
+
+  &-2 {
+    padding: 2rem 0;
+  }
+
+  &-3 {
+    padding: 3rem 0;
+  }
+
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+.active {
+  border-bottom: 3px $main-color dotted;
+  text-align: center;
+  color: $main-color;
+}
+.underline {
+  border-bottom: 3px $main-color solid;
+  text-align: center;
+  width: 25rem;
+}
+
+.lead {
+  color: $main-color !important;
+}
+
+.lead-white {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5%;
+  text-align: center;
+}
+.btn-dark {
+  background: #020202fd;
+  color: #ffffff;
+  font-family: "Yellowtail", cursive;
+}
+.btn-light {
+  color: #000;
+  background: $main-color;
+  font-family: "Yellowtail", cursive;
+}
+
+.btn-dark:hover {
+  background: rgba($color: #020202fd, $alpha: 0.6);
+}
+.btn-light:hover {
+  background: rgba($color: $main-color, $alpha: 0.6);
+}
+.btn-2:hover {
+  background: #ef84f784;
+}
+
+button {
+  display: block;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5%;
+  text-align: center;
+}
