@@ -979,7 +979,8 @@ footer {
         position: absolute;
         top: 680;
         left: 220;
-        text-align: center; }
+        text-align: center;
+        width: 100%; }
   #home-a {
     height: 42rem; }
     #home-a .container {
@@ -1153,7 +1154,8 @@ footer {
         position: absolute;
         top: 680;
         left: 220;
-        text-align: center; }
+        text-align: center;
+        width: 100; }
   #home-a {
     height: 42rem; }
     #home-a .container {
@@ -1337,6 +1339,7 @@ footer {
         position: absolute;
         top: 65%;
         left: 35%;
+        width: 100;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
@@ -1683,6 +1686,7 @@ footer {
         position: absolute;
         top: 65%;
         left: 45%;
+        width: 100%;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
@@ -2122,6 +2126,7 @@ footer {
         position: absolute;
         top: 65%;
         left: 38%;
+        width: 100%;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
