@@ -914,7 +914,8 @@ footer {
     margin: 0 auto; }
     footer .container .content {
       display: flex;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      -webkit-justify-content: space-between; }
       footer .container .content .items {
         display: block;
         color: #fff;
@@ -940,7 +941,7 @@ footer {
     #navbar .container {
       padding: 0; }
       #navbar .container .logo h2 {
-        width: 150px;
+        width: 100%;
         font-size: 1.2rem;
         text-align: center; }
       #navbar .container label {
@@ -971,7 +972,7 @@ footer {
   #header {
     height: 53rem; }
     #header .header-img {
-      background: url("/dist/img/main-background4.jpg") no-repeat center center/cover;
+      background: url("/img/main-background4.jpg") no-repeat center center/cover;
       height: 65rem;
       background-position-y: -50%; }
       #header .header-img .header-content {
@@ -1114,7 +1115,7 @@ footer {
     #navbar .container {
       padding: 0; }
       #navbar .container .logo h2 {
-        width: 150px;
+        width: 100%;
         font-size: 1.2rem;
         text-align: center; }
       #navbar .container label {
@@ -1145,7 +1146,7 @@ footer {
   #header {
     height: 53rem; }
     #header .header-img {
-      background: url("/dist/img/main-background4.jpg") no-repeat center center/cover;
+      background: url("/img/main-background4.jpg") no-repeat center center/cover;
       height: 65rem;
       background-position-y: -50%; }
       #header .header-img .header-content {
@@ -1274,7 +1275,7 @@ footer {
   #contact-form {
     height: 100%; }
     #contact-form .background {
-      height: 42rem; }
+      height: 45rem; }
     #contact-form .container {
       top: 1600;
       left: 50%;
@@ -1298,7 +1299,7 @@ footer {
     #navbar .container {
       padding: 0; }
       #navbar .container .logo h2 {
-        width: 100px;
+        width: 100%;
         font-size: 1rem;
         text-align: center; }
       #navbar .container label {
@@ -1329,7 +1330,7 @@ footer {
   #header {
     height: 30rem; }
     #header .header-img {
-      background: url("/dist/img/main-background4.jpg") no-repeat center center/cover;
+      background: url("/img/main-background4.jpg") no-repeat center center/cover;
       height: 35rem;
       width: 100vw; }
       #header .header-img .header-content {
@@ -1535,7 +1536,7 @@ footer {
       font-size: 2.4rem; }
   #prices-a .box .container {
     height: 13rem;
-    margin: 0 auto 0 auto; }
+    margin: 2rem auto 0 auto; }
     #prices-a .box .container h2 {
       font-size: 1rem; }
     #prices-a .box .container p {
@@ -1595,9 +1596,9 @@ footer {
     margin-top: 6rem;
     font-size: 0.8rem; }
   #contact-form {
-    height: 35rem; }
+    height: 40rem; }
     #contact-form .background {
-      height: 35rem; }
+      height: 40rem; }
     #contact-form .container {
       margin-top: 2rem;
       top: 1350;
@@ -1644,7 +1645,7 @@ footer {
     #navbar .container {
       padding: 0; }
       #navbar .container .logo h2 {
-        width: 100px;
+        width: 100%;
         font-size: 1rem;
         text-align: center; }
       #navbar .container label {
@@ -1675,7 +1676,7 @@ footer {
   #header {
     height: 30rem; }
     #header .header-img {
-      background: url("/dist/img/main-background4.jpg") no-repeat center center/cover;
+      background: url("/img/main-background4.jpg") no-repeat center center/cover;
       height: 35rem;
       width: 100vw; }
       #header .header-img .header-content {
@@ -1971,7 +1972,8 @@ footer {
     top: 28%; }
   #prices-a .box .container {
     height: 15rem;
-    font-size: 0.8rem; }
+    font-size: 0.8rem;
+    margin: 2rem auto 0 auto; }
     #prices-a .box .container h2 {
       font-size: 1rem; }
     #prices-a .box .container p {
@@ -2032,9 +2034,9 @@ footer {
     font-size: 0.8rem;
     width: 90vw; }
   #contact-form {
-    height: 30rem; }
+    height: 40rem; }
     #contact-form .background {
-      height: 30rem; }
+      height: 40rem; }
     #contact-form .container {
       margin-top: 3rem;
       width: 100vw;
@@ -2082,7 +2084,7 @@ footer {
     #navbar .container {
       padding: 0; }
       #navbar .container .logo h2 {
-        width: 100px;
+        width: 100%;
         font-size: 1rem;
         text-align: center; }
       #navbar .container label {
@@ -2113,7 +2115,7 @@ footer {
   #header {
     height: 30rem; }
     #header .header-img {
-      background: url("/dist/img/main-background4.jpg") no-repeat center center/cover;
+      background: url("/img/main-background4.jpg") no-repeat center center/cover;
       height: 35rem;
       width: 100vw; }
       #header .header-img .header-content {
@@ -2423,24 +2425,26 @@ footer {
       font-size: 1rem; }
     #prices-a .box .container p {
       font-size: 0.8rem; }
-  #prices-b .container h2 {
-    font-size: 1rem; }
-  #prices-b .container p {
-    font-size: 0.7rem; }
-  #prices-b .container .accordion {
-    margin: 2rem 0;
-    width: 100%;
-    height: 7rem;
-    font-size: 0.8rem; }
-    #prices-b .container .accordion h2:first-child {
-      width: 60%;
+  #prices-b .container {
+    margin: 2rem auto 0 auto; }
+    #prices-b .container h2 {
       font-size: 1rem; }
-    #prices-b .container .accordion h2:nth-child(2) {
-      text-align: right;
-      padding: 0; }
-    #prices-b .container .accordion p {
-      width: 90%;
+    #prices-b .container p {
       font-size: 0.7rem; }
+    #prices-b .container .accordion {
+      margin: 2rem 0;
+      width: 100%;
+      height: 7rem;
+      font-size: 0.8rem; }
+      #prices-b .container .accordion h2:first-child {
+        width: 60%;
+        font-size: 1rem; }
+      #prices-b .container .accordion h2:nth-child(2) {
+        text-align: right;
+        padding: 0; }
+      #prices-b .container .accordion p {
+        width: 90%;
+        font-size: 0.7rem; }
   #service-a .container {
     grid-template-areas: "main main main main";
     padding: 0; }
@@ -2484,10 +2488,10 @@ footer {
     margin-top: 4rem;
     font-size: 0.8rem; }
   #contact-form {
-    height: 35rem;
+    height: 40rem;
     margin-top: 5rem; }
     #contact-form .background {
-      height: 35rem; }
+      height: 40rem; }
     #contact-form .container {
       width: 100vw;
       height: 30rem;

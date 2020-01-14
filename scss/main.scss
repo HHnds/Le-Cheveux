@@ -1113,6 +1113,7 @@ footer {
     .content {
       display: flex;
       justify-content: space-evenly;
+      -webkit-justify-content: space-between;
       .items {
         display: block;
         color: #fff;
