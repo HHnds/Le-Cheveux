@@ -1339,15 +1339,13 @@ footer {
         position: absolute;
         top: 65%;
         left: 35%;
-        width: 100;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
         #header .header-img .header-content .second-title {
           font-size: 0.7rem; }
         #header .header-img .header-content .underline {
-          top: 70px;
-          width: 160px; }
+          display: none; }
   #home-a {
     height: 43rem; }
     #home-a .background {
@@ -1686,7 +1684,6 @@ footer {
         position: absolute;
         top: 65%;
         left: 45%;
-        width: 100%;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
@@ -1694,8 +1691,7 @@ footer {
           font-size: 0.7rem;
           width: 14rem; }
         #header .header-img .header-content .underline {
-          top: 70px;
-          width: 160px; }
+          display: none; }
   #home-a {
     height: 43rem; }
     #home-a .background {
@@ -2126,7 +2122,6 @@ footer {
         position: absolute;
         top: 65%;
         left: 38%;
-        width: 100%;
         text-align: left; }
         #header .header-img .header-content .first-title {
           font-size: 1.9rem; }
@@ -2134,8 +2129,7 @@ footer {
           font-size: 0.7rem;
           width: 14rem; }
         #header .header-img .header-content .underline {
-          top: 70px;
-          width: 160px; }
+          display: none; }
   #home-a {
     height: 43rem; }
     #home-a .background {
