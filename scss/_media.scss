@@ -583,43 +583,49 @@
         }
       }
     }
-    &-c {
-      img {
-        width: 80vw;
-      }
-    }
-  }
 
-  #contact-form {
-    height: 100%;
-    .background {
-      height: 45rem;
-    }
-    .container {
-      top: 1600;
-      left: 50%;
-      max-width: 90vw;
-      .form-group {
-        input,
-        textarea {
-          width: 20rem;
-        }
-        textarea {
-          height: 8rem;
+    &-c {
+      .wrapper {
+        .header-img {
+          a {
+            img {
+              width: 50vw;
+            }
+          }
         }
       }
     }
-  }
-  #FAQ {
-    .container {
-      .questions {
-        margin: 0;
-        .accordion {
-          margin-left: 0;
-          width: 100%;
+    #contact-form {
+      height: 100%;
+      .background {
+        height: 45rem;
+      }
+      .container {
+        top: 1600;
+        left: 50%;
+        max-width: 90vw;
+        .form-group {
+          input,
+          textarea {
+            width: 20rem;
+          }
+          textarea {
+            height: 8rem;
+          }
         }
-        .answer {
-          margin: 1rem auto;
+      }
+    }
+    #FAQ {
+      .container {
+        .questions {
+          margin: 0;
+          .accordion {
+            margin-left: 0;
+            width: 100%;
+          }
+          .answer {
+            margin: 1rem auto;
+          }
         }
       }
     }
@@ -1088,10 +1094,16 @@
         }
       }
     }
+
     &-c {
-      .header-img {
-        img {
-          height: 11rem;
+      .wrapper {
+        .header-img {
+          a {
+            img {
+              width: 90vw;
+              height: auto;
+            }
+          }
         }
       }
     }
@@ -1814,9 +1826,14 @@
       }
     }
     &-c {
-      .header-img {
-        img {
-          width: 100vw;
+      .wrapper {
+        .header-img {
+          a {
+            img {
+              width: 80vw;
+              height: auto;
+            }
+          }
         }
       }
     }
@@ -2548,10 +2565,14 @@
       }
     }
     &-c {
-      .header-img {
-        img {
-          width: 80vw;
-          height: 10rem;
+      .wrapper {
+        .header-img {
+          a {
+            img {
+              width: 80vw;
+              height: auto;
+            }
+          }
         }
       }
     }
