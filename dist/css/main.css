@@ -1447,19 +1447,19 @@ footer {
     height: 42rem; }
     #about-a .background {
       display: none; }
-      #about-a .background .container {
-        width: 100vw;
-        flex-direction: column-reverse;
-        top: 9%; }
-        #about-a .background .container img {
-          display: none; }
-        #about-a .background .container .text {
-          width: 80vw;
-          padding: 1rem; }
-          #about-a .background .container .text h2 {
-            font-size: 1.8rem; }
-          #about-a .background .container .text p {
-            font-size: 0.9rem; }
+    #about-a .container {
+      width: 100vw;
+      flex-direction: column-reverse;
+      top: 9%; }
+      #about-a .container img {
+        display: none; }
+      #about-a .container .text {
+        width: 80vw;
+        padding: 1rem; }
+        #about-a .container .text h2 {
+          font-size: 1.8rem; }
+        #about-a .container .text p {
+          font-size: 0.9rem; }
   #about-b {
     height: 60vw; }
     #about-b .container .border1 {
@@ -1793,20 +1793,20 @@ footer {
     height: 45rem; }
     #about-a .background {
       display: none; }
-      #about-a .background .container {
-        width: 100vw;
-        flex-direction: column-reverse;
-        top: 8%;
-        left: 170px; }
-        #about-a .background .container img {
-          display: none; }
-        #about-a .background .container .text {
-          width: 80vw;
-          padding: 1rem; }
-          #about-a .background .container .text h2 {
-            font-size: 1.8rem; }
-          #about-a .background .container .text p {
-            font-size: 0.9rem; }
+    #about-a .container {
+      width: 100vw;
+      flex-direction: column-reverse;
+      top: 8%;
+      left: 170px; }
+      #about-a .container img {
+        display: none; }
+      #about-a .container .text {
+        width: 80vw;
+        padding: 1rem; }
+        #about-a .container .text h2 {
+          font-size: 1.8rem; }
+        #about-a .container .text p {
+          font-size: 0.9rem; }
   #about-b {
     height: 80vw; }
     #about-b .container .border1 {
@@ -2242,20 +2242,20 @@ footer {
     height: 50rem; }
     #about-a .background {
       display: none; }
-      #about-a .background .container {
-        width: 100vw;
-        flex-direction: column-reverse;
-        top: 6%;
-        left: 140px; }
-        #about-a .background .container img {
-          display: none; }
-        #about-a .background .container .text {
-          width: 80vw;
-          padding: 1rem; }
-          #about-a .background .container .text h2 {
-            font-size: 1.8rem; }
-          #about-a .background .container .text p {
-            font-size: 0.9rem; }
+    #about-a .container {
+      width: 100vw;
+      flex-direction: column-reverse;
+      top: 6%;
+      left: 140px; }
+      #about-a .container img {
+        display: none; }
+      #about-a .container .text {
+        width: 80vw;
+        padding: 1rem; }
+        #about-a .container .text h2 {
+          font-size: 1.8rem; }
+        #about-a .container .text p {
+          font-size: 0.9rem; }
   #about-b {
     height: 45vh; }
     #about-b .container .border1 {
