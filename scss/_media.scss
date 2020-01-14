@@ -458,7 +458,7 @@
     &-a {
       height: 37rem;
       .background {
-        height: 40%;
+        display: none;
       }
       .container {
         width: 100vw;
@@ -842,21 +842,24 @@
   #about {
     &-a {
       height: 42rem;
-      .container {
-        width: 100vw;
-        flex-direction: column-reverse;
-        top: 9%;
-        img {
-          display: none;
-        }
-        .text {
-          width: 80vw;
-          padding: 1rem;
-          h2 {
-            font-size: 1.8rem;
+      .background {
+        display: none;
+        .container {
+          width: 100vw;
+          flex-direction: column-reverse;
+          top: 9%;
+          img {
+            display: none;
           }
-          p {
-            font-size: 0.9rem;
+          .text {
+            width: 80vw;
+            padding: 1rem;
+            h2 {
+              font-size: 1.8rem;
+            }
+            p {
+              font-size: 0.9rem;
+            }
           }
         }
       }
@@ -1388,22 +1391,25 @@
   #about {
     &-a {
       height: 45rem;
-      .container {
-        width: 100vw;
-        flex-direction: column-reverse;
-        top: 8%;
-        left: 170px;
-        img {
-          display: none;
-        }
-        .text {
-          width: 80vw;
-          padding: 1rem;
-          h2 {
-            font-size: 1.8rem;
+      .background {
+        display: none;
+        .container {
+          width: 100vw;
+          flex-direction: column-reverse;
+          top: 8%;
+          left: 170px;
+          img {
+            display: none;
           }
-          p {
-            font-size: 0.9rem;
+          .text {
+            width: 80vw;
+            padding: 1rem;
+            h2 {
+              font-size: 1.8rem;
+            }
+            p {
+              font-size: 0.9rem;
+            }
           }
         }
       }
@@ -2111,6 +2117,8 @@
   #about {
     &-a {
       height: 50rem;
+      .background{
+        display: none;
       .container {
         width: 100vw;
         flex-direction: column-reverse;
@@ -2130,7 +2138,7 @@
           }
         }
       }
-    }
+    }}
     &-b {
       height: 45vh;
       .container {
