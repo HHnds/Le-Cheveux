@@ -1464,12 +1464,16 @@ footer {
       #about-a .container img {
         display: none; }
       #about-a .container .text {
-        width: 80vw;
-        padding: 1rem; }
+        width: 100%;
+        padding: 0;
+        background: none;
+        box-shadow: none; }
         #about-a .container .text h2 {
           font-size: 1.8rem; }
         #about-a .container .text p {
           font-size: 0.9rem; }
+        #about-a .container .text .lead-white {
+          color: black; }
   #about-b {
     height: 60vw; }
     #about-b .container .border1 {
@@ -1813,17 +1817,20 @@ footer {
     #about-a .container {
       width: 100vw;
       flex-direction: column-reverse;
-      top: 8%;
-      left: 170px; }
+      top: 8%; }
       #about-a .container img {
         display: none; }
       #about-a .container .text {
-        width: 80vw;
-        padding: 1rem; }
+        width: 100%;
+        padding: 0;
+        background: none;
+        box-shadow: none; }
         #about-a .container .text h2 {
           font-size: 1.8rem; }
         #about-a .container .text p {
           font-size: 0.9rem; }
+        #about-a .container .text .lead-white {
+          color: black; }
   #about-b {
     height: 80vw; }
     #about-b .container .border1 {
@@ -2263,17 +2270,20 @@ footer {
     #about-a .container {
       width: 100vw;
       flex-direction: column-reverse;
-      top: 6%;
-      left: 140px; }
+      top: 6%; }
       #about-a .container img {
         display: none; }
       #about-a .container .text {
-        width: 80vw;
-        padding: 1rem; }
+        width: 100%;
+        padding: 0;
+        background: none;
+        box-shadow: none; }
         #about-a .container .text h2 {
           font-size: 1.8rem; }
         #about-a .container .text p {
-          font-size: 0.9rem; }
+          font-size: 0.8rem; }
+        #about-a .container .text .lead-white {
+          color: black; }
   #about-b {
     height: 45vh; }
     #about-b .container .border1 {
@@ -2341,100 +2351,100 @@ footer {
         top: 100;
         left: 70;
         width: 5rem; }
-  #about #prices-a .header-container {
+  #prices-a .header-container {
     margin-top: -1rem; }
-    #about #prices-a .header-container .header-content h2 {
+    #prices-a .header-container .header-content h2 {
       font-size: 2.4rem; }
-  #about #prices-a .box .container {
+  #prices-a .box .container {
     height: 13rem;
     margin: 0 auto 0 auto; }
-    #about #prices-a .box .container h2 {
+    #prices-a .box .container h2 {
       font-size: 1rem; }
-    #about #prices-a .box .container p {
+    #prices-a .box .container p {
       font-size: 0.8rem; }
-  #about #prices-b .container h2 {
+  #prices-b .container h2 {
     font-size: 1.3rem; }
-  #about #prices-b .container p {
+  #prices-b .container p {
     font-size: 0.8rem; }
-  #about #prices-b .container .accordion {
+  #prices-b .container .accordion {
     width: 90%;
     height: 5rem;
     margin: 1rem auto; }
-    #about #prices-b .container .accordion a h2 {
+    #prices-b .container .accordion a h2 {
       font-size: 1rem; }
-    #about #prices-b .container .accordion a h2:first-child {
+    #prices-b .container .accordion a h2:first-child {
       width: 11rem;
       padding: 0 0 0.8rem 1rem; }
-    #about #prices-b .container .accordion a h2:nth-child(2) {
+    #prices-b .container .accordion a h2:nth-child(2) {
       padding: 0; }
-    #about #prices-b .container .accordion a p {
+    #prices-b .container .accordion a p {
       font-size: 0.7rem;
       width: 17rem;
       padding: 0; }
-    #about #prices-b .container .accordion a img {
+    #prices-b .container .accordion a img {
       display: none; }
-  #about #prices #service-a .container {
+  #prices #service-a .container {
     grid-template-areas: "main main main main"; }
-    #about #prices #service-a .container .main {
+    #prices #service-a .container .main {
       padding: 0 1rem; }
-      #about #prices #service-a .container .main h2 {
+      #prices #service-a .container .main h2 {
         font-size: 1.7rem; }
-      #about #prices #service-a .container .main h3 {
+      #prices #service-a .container .main h3 {
         font-size: 1.2rem; }
-      #about #prices #service-a .container .main p {
+      #prices #service-a .container .main p {
         font-size: 0.8rem; }
-    #about #prices #service-a .container .side .wrapper {
+    #prices #service-a .container .side .wrapper {
       margin: 0 auto;
       width: 90vw; }
-  #about #prices #service-b .container {
+  #prices #service-b .container {
     grid-template-columns: repeat(1, 1fr); }
-    #about #prices #service-b .container p {
+    #prices #service-b .container p {
       margin-top: 2rem;
       font-size: 0.8rem;
       text-align: center; }
-    #about #prices #service-b .container img {
+    #prices #service-b .container img {
       width: 100%;
       height: 15rem; }
-  #about #prices #service-c .header-img img {
+  #prices #service-c .header-img img {
     height: 11rem; }
-  #about #prices #service-d .container {
+  #prices #service-d .container {
     grid-template-columns: repeat(1, 1fr); }
-    #about #prices #service-d .container .boxes p {
+    #prices #service-d .container .boxes p {
       font-size: 0.8rem; }
-  #about #prices #header-contact {
+  #prices #header-contact {
     margin-top: 4rem;
     font-size: 0.8rem; }
-  #about #prices #contact-form {
+  #prices #contact-form {
     height: 35rem; }
-    #about #prices #contact-form .background {
+    #prices #contact-form .background {
       height: 35rem; }
-    #about #prices #contact-form .container {
+    #prices #contact-form .container {
       margin-top: 2rem;
       width: 100vw;
       height: 30rem;
       top: 165%; }
-      #about #prices #contact-form .container h2 {
+      #prices #contact-form .container h2 {
         padding: 0; }
-      #about #prices #contact-form .container .side img {
+      #prices #contact-form .container .side img {
         display: none; }
-      #about #prices #contact-form .container .form-group input,
-      #about #prices #contact-form .container .form-group textarea {
+      #prices #contact-form .container .form-group input,
+      #prices #contact-form .container .form-group textarea {
         width: 22rem; }
-      #about #prices #contact-form .container .form-group textarea {
+      #prices #contact-form .container .form-group textarea {
         height: 8rem; }
-      #about #prices #contact-form .container button {
+      #prices #contact-form .container button {
         width: 15rem;
         margin: auto; }
-  #about #prices footer {
+  #prices footer {
     position: relative;
     right: 0;
     bottom: 0;
     left: 0;
     font-size: 0.7rem; }
-    #about #prices footer .container .content {
+    #prices footer .container .content {
       width: 100vw;
       margin: 0 0rem 1rem 1rem; }
-    #about #prices footer .container .items:nth-child(3) {
+    #prices footer .container .items:nth-child(3) {
       padding-left: 2rem; }
   #prices-a .background {
     height: 55vh; }
