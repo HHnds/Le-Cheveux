@@ -64,11 +64,7 @@
   height: 105%;
   // Header - space
   .header-img {
-    background: url("img/main-background3.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    // parallax effect *Remove for smaller screens
+    background: url("img/main-background3.jpg") no-repeat center center/cover;
     // set attachment to scroll
     background-attachment: fixed;
     // Bottom image cut - Clip path maker
@@ -441,7 +437,7 @@
   }
   &-b {
     position: relative;
-    background: url("/img/orange.jpg") repeat center center/cover;
+    background: url("img/orange.jpg") repeat center center/cover;
     width: 100vw;
     height: 70vh;
     .container {
