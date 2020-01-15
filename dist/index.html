@@ -231,12 +231,19 @@
               Enter Your Email Bellow & Subscribe To Our Monthly Promotional
               offers
             </p>
-            <form name="subscribe' action="POST" data-netlify="true">
+            <form
+              action="POST"
+              data-netlify="true"
+              data-netlify-recaptcha="true"
+            >
               <input
                 type="email"
                 class="input-email"
                 placeholder="Enter Your Email"
               />
+
+              <div data-netlify-recaptcha="true"></div>
+
               <button type="submit" class="btn btn-dark">Submit</button>
             </form>
           </div>
